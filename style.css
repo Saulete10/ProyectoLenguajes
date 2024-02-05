@@ -54,6 +54,17 @@
         text-align: left;
     }
 }
+.contenido p{
+    font-size: 25px;
+    text-align: justify;
+    margin-top: 2%;
+}
+
+.contenido .bienvenida{
+    font-size: 40px;
+    margin-top: 1%;
+    text-align: center;
+}
 
 .footer {
     width: 100%;
