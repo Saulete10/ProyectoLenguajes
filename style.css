@@ -53,11 +53,14 @@
         display: block;
         text-align: left;
     }
+
+
 }
-.contenido p{
+.contenido p, ul{
     font-size: 25px;
     text-align: justify;
     margin-top: 2%;
+    margin-left: 2%;
 }
 
 .contenido .bienvenida{
