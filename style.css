@@ -53,20 +53,24 @@
         display: block;
         text-align: left;
     }
-
-
 }
+
 .contenido p, ul{
     font-size: 25px;
     text-align: justify;
     margin-top: 2%;
-    margin-left: 2%;
+    margin-left: 5%;
 }
 
 .contenido .bienvenida{
     font-size: 40px;
     margin-top: 1%;
     text-align: center;
+}
+
+.contenido .contacto {
+    padding: 3%;
+    width: 35vw;
 }
 
 .footer {
