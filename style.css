@@ -73,6 +73,10 @@
     width: 35vw;
 }
 
+fieldset .formulario {
+    margin-left: 2%;
+}
+
 .footer {
     width: 100%;
     height: 7%;
