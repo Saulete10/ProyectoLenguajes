@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../style.css">
     <title>Campeonatos</title>
 </head>
@@ -14,6 +15,9 @@
         <a href="../Campeonatos/index.html" class="activa">Campeonatos</a>
         <a href="../Licencias/index.html">Licencias</a>
         <a href="../Circuitos/index.html">Circuitos</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
     <div class="contenido">
         <ul>Los campeonatos en los que competimos son:<br><br>
@@ -22,25 +26,27 @@
                    Estos pilotos se dividen en categorias y esas categorias se clasifican por la edad. Las categorias son las siguientes:
                    <ul>
                     <li>PRE-ROOKIE: Edad minima de 5 años</li>
-                    <li>ROOKIE: Edad minima de 6</li>
-                    <li>MINI: Edad minima de 8</li>
-                    <li>JUNIOR: Edad minima de 12</li>
-                    <li>SENIOR: Edad minima de 16</li>
-                    <li>KZ: Edad minima de 18</li>
+                    <li>ROOKIE: Edad minima de 6 años</li>
+                    <li>MINI: Edad minima de 8 años</li>
+                    <li>JUNIOR: Edad minima de 12 años</li>
+                    <li>SENIOR: Edad minima de 16 años</li>
+                    <li>KZ: Edad minima de 18 años </li>
                    </ul>
                 </p>
             </li>
             <li>CMK: Campeonato Madrileño de Karting</li>
             <li>CEK: Campeonato de España de Karting</li>
         </ul>
+        <div class="imagenes">
+            <img src="logoCKCL.png" id="CKCL">
+            <img src="logoCMK.png" id="CMK">
+            <img src="logoCEK.jpg" id="CEK">
+        </div>
     </div>
-    <div class="imagenes">
-        <img src="logoCKCL.png" id="CKCL">
-        <img src="logoCMK.png" id="CMK">
-        <img src="logoCEK.jpg" id="CEK">
-    </div>
-    <div class="footer">
+    <footer class="footer">
         Telefono: 123 456 789 | Email: nebredaracingteam@gmail.com |  Aviso legal  Privacidad y uso de cookies
-    </div>
+    </footer>
+
+    <script src="../js/javascript.js"></script>
 </body>
 </html>
