@@ -83,6 +83,36 @@ fieldset .formulario {
     margin-left: 2%;
 }
 
+.contenido #CKCL {
+    margin-left: 27%;
+}
+
+.imagenes #CKCL {
+    position: absolute;
+    top: 13%;
+    margin-left: 5%;
+}
+
+.contenido #CMK {
+    margin-left: 36%;
+}
+
+.imagenes #CMK {
+    position: absolute;
+    top: 39%;
+    margin-left: 0;
+}
+
+.contenido #CEK {
+    margin-left: 44%;
+}
+
+.imagenes #CEK {
+    position: absolute;
+    bottom: 15%;
+    margin-left: 3%;
+}
+
 .footer {
     width: 100%;
     height: 7%;
