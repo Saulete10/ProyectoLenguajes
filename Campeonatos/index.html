@@ -8,7 +8,8 @@
     <title>Campeonatos</title>
 </head>
 <body>
-    <div class="menu">
+    <div class="menu" id="menu">
+        <img src="../LogoFondoNegro.jpeg">
         <a href="../index.html">Inicio</a>
         <a href="../Noticias/index.html">Noticias</a>
         <a href="../Contacto/index.html">Contacto</a>
@@ -20,8 +21,11 @@
         </a>
     </div>
     <div class="contenido">
+        
         <ul>Los campeonatos en los que competimos son:<br><br>
-            <li id="CKCL">CKCL: Campeonato de Karting de Castilla y Leon:
+            <div class="campeonato">
+            <img class="logo" src="logoCKCL.png" id="CKCL">
+            <li class="t_campeonato">CKCL: Campeonato de Karting de Castilla y Leon:
                 <p>El Campeonato de Karting de Castilla y Leon es una competicion que reune pilotos de la propia comunidad y algunos de
                    otras comunidades. Estos pilotos compiten en 5 circuitos que se encuentran dentro de la misma.
                    Estos pilotos se dividen en categorias y esas categorias se clasifican por la edad. Las categorias son las siguientes:</p>
@@ -33,8 +37,11 @@
                         <li>SENIOR: Edad minima de 16 años</li>
                         <li>KZ: Edad minima de 18 años </li>
                    </ul>
-            </li><br>
-            <li id="CMK">CMK: Campeonato Madrileño de Karting:
+            </li><br><br>
+        </div>
+        <div  class="campeonato">
+        <img class="logo" src="logoCMK.png" id="CMK">
+            <li class="t_campeonato">CMK: Campeonato Madrileño de Karting:
                 <p>El Campeonato Madrileño de Karting se disputa en circuitos de otras comunidades debido a que en la comunidad de Madrid no hay circuitos con condiciones para competir</p>
                     <ul>
                         <li>MINIMAX: Edad minima de 8 años</li>
@@ -47,8 +54,11 @@
                         <li>KZ: Edad minima de 18 años</li>
                         <li>ZK-2: Edad minima de 18 años</li>
                     </ul>
-            </li><br>
-            <li id="CEK">CEK: Campeonato de España de Karting:
+            </li><br><br>
+        </div>
+        <div  class="campeonato">
+        <img class="logo" src="logoCEK.jpg" id="CEK">
+            <li class="t_campeonato">CEK: Campeonato de España de Karting:
                 <p>Este campeonato es el de mayor nivel en cuanto a competicion dentro del pais. Principalmente es para pilotos españoles pero tambien pueden competir pilotos de otras nacionalidades. Este campeonato ya se realiza en circuitos internacionales como el de Zuera o Motorland entre otros</p>
                     <ul>
                         <li>ACADEMY: Edad minima de 6 años</li>
@@ -60,12 +70,8 @@
                         <li>KZ-2: Edad minima de 18 años</li>
                     </ul>
             </li>
-        </ul>
-        <div class="imagenes">
-            <img src="logoCKCL.png" id="CKCL">
-            <img src="logoCMK.png" id="CMK">
-            <img src="logoCEK.jpg" id="CEK">
         </div>
+        </ul>
     </div>
     <footer class="footer">
         Telefono: 123 456 789 | Email: nebredaracingteam@gmail.com |  Aviso legal  Privacidad y uso de cookies

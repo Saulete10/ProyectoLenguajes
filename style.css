@@ -4,7 +4,7 @@
 }
 
 body {
-    min-height: 80vh;
+    min-height: 100vh;
     position: relative;
     padding-bottom: 10%;
 }
@@ -12,6 +12,11 @@ body {
 .menu {
     overflow: hidden;
     background-color: black;
+}
+
+.menu img{
+    height: 50px;
+    float: left;
 }
 
 .menu a {
@@ -61,6 +66,10 @@ body {
     }
 }
 
+.contenido {
+    margin-bottom: 100px;
+}
+
 .contenido p, ul{
     font-size: 25px;
     text-align: justify;
@@ -83,39 +92,50 @@ fieldset .formulario {
     margin-left: 2%;
 }
 
-.contenido #CKCL {
-    margin-left: 27%;
+.campeonato{
+    position: relative;
+    margin-top: 50px;
 }
 
-.imagenes #CKCL {
+.logo{
+    display: inline-block;
+    width: 20%;
     position: absolute;
-    top: 13%;
-    margin-left: 5%;
 }
 
-.contenido #CMK {
-    margin-left: 36%;
+.t_campeonato{
+    display: inline-block;
+    width: 70%;
+    margin-left: 24%;
 }
 
-.imagenes #CMK {
-    position: absolute;
-    top: 39%;
-    margin-left: 0;
+@media only screen and (max-width:600px) {
+    .logo {
+        display: block;
+        width: 100%;
+        position: static;
+    }
+    #CKCL{
+        width: 48%;
+        margin-left: 26%;
+    }
+
+    .t_campeonato{
+        display: block;
+        margin-top: 5%;
+        width: 100%;
+        margin-left: 0;
+    }
+    .contenido{
+        width: 90%;
+        margin-left: 5%;
+    }
 }
 
-.contenido #CEK {
-    margin-left: 44%;
-}
-
-.imagenes #CEK {
-    position: absolute;
-    bottom: 15%;
-    margin-left: 3%;
-}
 
 .footer {
     width: 100%;
-    height: 7%;
+    height: 100px;
     color: black;
     background-color: lightgrey;
     position: absolute;
