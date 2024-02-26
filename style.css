@@ -97,6 +97,10 @@ fieldset .formulario {
     margin-top: 50px;
 }
 
+#principal {
+    margin-left: 25%;
+}
+
 .logo{
     display: inline-block;
     width: 20%;
