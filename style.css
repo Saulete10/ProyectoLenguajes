@@ -117,6 +117,7 @@ fieldset .formulario {
     margin-left: 24%;
 }
 
+
 @media only screen and (max-width:600px) {
     .logo {
         display: block;
@@ -152,10 +153,20 @@ fieldset .formulario {
     margin-top: 5%;
     list-style: none;
 }
+.texto {
+    text-align: center;
+    margin-top: 4%;
+}
 
 .circuitos img {
     width: 100%;
     height: 400px;
+}
+#chiva {
+    margin-left: 25.7%;
+}
+.titulo {
+    font-family: "Oswald", sans-serif;
 }
 
 @media only screen and (max-width:600px){
@@ -167,6 +178,31 @@ fieldset .formulario {
     .circuitos img {
         height: auto;
     }
+
+    #chiva {
+        margin-left: 0;
+    }
+}
+
+.aviso_legal {
+    text-align: justify;
+    font-family: "Oswald", sans-serif;
+    margin-left: 3%;
+}
+
+h1 {
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.privacidad {
+    text-align: justify;
+    margin-left: 3%;
+}
+
+.cookies {
+    text-align: justify;
+    margin-left: 3%;
 }
 
 .footer {
