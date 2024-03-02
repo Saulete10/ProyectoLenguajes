@@ -215,3 +215,9 @@ h1 {
     padding-top: 2%;
     text-align: center;
 }
+
+.footer img {
+    height: 100px;
+    margin-left: 3%;
+    float: left;
+}
