@@ -155,6 +155,11 @@ fieldset .formulario {
         width: 90%;
         margin-left: 5%;
     }
+
+    .federaciones {
+        margin-left: 37%;
+        margin-bottom: 3%;
+    }
 }
 
 #listaCircuitos {
