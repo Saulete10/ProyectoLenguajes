@@ -70,6 +70,22 @@ body {
     margin-bottom: 100px;
 }
 
+.federacion {
+    margin-left: 2%;
+    margin-top: 1%;
+    float: left;
+    font-family: "Oswald", sans-serif;
+}
+
+.federaciones {
+    height: 75px;
+    margin-left: 1%;
+    display: inline-block;
+}
+.licencia {
+    margin-left: 3%;
+    font-size: 20px;
+}
 
 .contenido p, ul{
     font-size: 25px;
